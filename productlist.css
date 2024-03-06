@@ -1,0 +1,43 @@
+/* productlist.css */
+
+/* Thiết lập kiểu cho tiêu đề bảng */
+table.data {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+table.data th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Thiết lập kiểu cho dòng chẵn */
+table.data tr.even {
+    background-color: #f9f9f9;
+}
+
+/* Thiết lập kiểu cho dòng lẻ */
+table.data tr.odd {
+    background-color: #fff;
+}
+
+/* Thiết lập kiểu cho cột hình ảnh */
+table.data td.image-column img {
+    width: 150px;
+    height: auto;
+}
+
+/* Thiết lập kiểu cho các cột khác */
+table.data td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Thiết lập kiểu cho hover */
+table.data tr:hover {
+    background-color: #f2f2f2;
+}

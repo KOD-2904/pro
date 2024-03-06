@@ -1,0 +1,85 @@
+/* Reset CSS */
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container_12 {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.grid_12 {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.header-repeat {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#branding {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.floatright {
+    float: right;
+}
+
+.floatleft {
+    float: left;
+}
+
+.marginleft10 {
+    margin-left: 10px;
+}
+
+.inline-ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav.main li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav.main a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+.nav.main a:hover {
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
+/* CSS để căn chỉnh vị trí của các phần tử */
+.nav-links {
+    display: inline-block;
+    margin-left: 10px; /* Khoảng cách giữa "Đăng xuất" và "Trang chủ" */
+}
+
+.nav-links li {
+    display: inline;
+}
